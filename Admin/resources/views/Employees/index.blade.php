@@ -21,6 +21,9 @@
         </div>
     </div>
 </div>
+<div class="mt-6 p-4">
+    {{ $employees->links('pagination::bootstrap-4') }}
+</div>
 <!-- breadcrumb -->
 @endsection
 @section('content')
